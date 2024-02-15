@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://www.livropedia.com/imagens/livro-padroes-de-projetos-solucoes-reutilizaveis-de-software-orientados-a-objetos.jpg">  
+</p>
+
+
 # Padrões de Projeto - Soluções reutilizáveis de software orientado a objetos.
 
 Esse repositório tem como objetivo ser um local de colocar em prática os aprendizados
