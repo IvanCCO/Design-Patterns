@@ -37,4 +37,10 @@ Essa é uma das premissas mais básicas do livro pois com isso é possível expa
 
 Existem dois benefícios claros em manipulação de interfaces ao invés de implementação, são eles:
 - Os clientes(quem utiliza a interface) permancem sem conhecimento dos tipos específicos dos objetos, contanto que o os objetos tenham aderência a interface
-- Os clientes permanecem sem conhecimento das classes que implementam esses objetos. O cliente tem apenas conhecimento da classe abstrata que define a interface. 
+- Os clientes permanecem sem conhecimento das classes que implementam esses objetos. O cliente tem apenas conhecimento da classe abstrata que define a interface.
+
+Não declarar variáveis como instâncias de classes concretas(implementação), faz com que seu código fique muito mais fácil de ser expandido, invés disso atribua para 
+essa variável o contrato que ela precisa, e deixe as implementações necessárias com esses contrato. Porém em algum momento é inevitável ter que instanciar uma implementação
+mas para isso também existem padrões (os de criação) que ajudam a abstrair o processo de criação de objeto, dando diferentes maneiras de associar uma interface com a implementação
+de forma transparente. 
+> Os padrões de criação asseguram que seu sistema esteja escrito em termos de interface, não de implementação. 
