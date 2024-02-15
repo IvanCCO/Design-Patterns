@@ -32,5 +32,4 @@ ao contexto, e vários padrões podem interagir entre SI.
 No caso dos livro, os padrões serão direcionados e explicados utilizando o conceito de POO (Programação orientada a objetos) e muitos padrões só são possíveis 
 por utilizar esse conceito, trazendo consigo Interfaces, Herança, Polimorfismo. 
 > Programe orientado a interface, não a implementação
-
-
+Essa é uma das premissas mais básicas do livro pois com isso é possível expandir, e evitar over acoplamento entre os objetos. 
