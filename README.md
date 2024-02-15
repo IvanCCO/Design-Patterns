@@ -12,3 +12,6 @@ mas isso não se limita a desenvolvimento de software.
 Padrões facilitam no desenvolvimento de soluções e a comunicação sobre essas soluções, identificar e dar um nome a um padrão facilita
 no seu melhoramento contínuo e uso. 
 
+No contexto de Engenharia de Software padrões são como "templates" que podem ser usados, e serem aptados ao domínio do negócio.
+Onde esse template consegue ser facilmente(quando bem aplicado) identificado por outros desenvolvedores e assim conseguirem discutir sobre 
+e propor melhorias. 
