@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.livropedia.com/imagens/livro-padroes-de-projetos-solucoes-reutilizaveis-de-software-orientados-a-objetos.jpg">  
+  <img src="https://www.livropedia.com/imagens/livro-padroes-de-projetos-solucoes-reutilizaveis-de-software-orientados-a-objetos.jpg" width="25%" >  
 </p>
 
 
