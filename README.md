@@ -24,7 +24,7 @@ e propor melhorias.
 Padrões do projeto não são algoritmos prontos, que se pode deixar guardado no seu projeto para serem utilizados quando conveniente, eles são adaptáveis
 ao contexto, e vários padrões podem interagir entre SI. 
 
-### No projeto
+## Como será abordado?
 
 Os padrões nesse projeto estarão em um projeto Java, apenas para demonstrar um esboço da implementação, onde será separado cada padrão em pacotes diferentes,
 com um texto MARKDOWN explicando o padrão e sua utilizadade, e trazendo um problema real, diferente do que foi abordado no livro, tentando ser algo mais 
