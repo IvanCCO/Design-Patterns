@@ -9,6 +9,11 @@ Esse repositório tem como objetivo ser um local de colocar em prática os apren
 derivados do livro **Padrões de Projeto**, onde irei colocar descrições sobre o Padrão apresentado
 e uma implementação em Java do padrão. 
 
+## Como será abordado?
+
+Os padrões nesse projeto estarão em um projeto Java, apenas para demonstrar um esboço da implementação, onde será separado cada padrão em pacotes diferentes,
+com um texto MARKDOWN explicando o padrão e sua utilizadade, e trazendo um problema real, diferente do que foi abordado no livro, tentando ser algo mais 
+moderno e identificável no dia a dia.
 
 ## O que são Padrões de Projeto? 
 
@@ -24,8 +29,8 @@ e propor melhorias.
 Padrões do projeto não são algoritmos prontos, que se pode deixar guardado no seu projeto para serem utilizados quando conveniente, eles são adaptáveis
 ao contexto, e vários padrões podem interagir entre SI. 
 
-## Como será abordado?
+No caso dos livro, os padrões serão direcionados e explicados utilizando o conceito de POO (Programação orientada a objetos) e muitos padrões só são possíveis 
+por utilizar esse conceito, trazendo consigo Interfaces, Herança, Polimorfismo. 
+> Programe orientado a interface, não a implementação
 
-Os padrões nesse projeto estarão em um projeto Java, apenas para demonstrar um esboço da implementação, onde será separado cada padrão em pacotes diferentes,
-com um texto MARKDOWN explicando o padrão e sua utilizadade, e trazendo um problema real, diferente do que foi abordado no livro, tentando ser algo mais 
-moderno e identificável no dia a dia.
+
