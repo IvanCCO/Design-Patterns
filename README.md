@@ -62,3 +62,19 @@ Sempre faça um sistema com o pensamento de que o escopo inicial pode e vai muda
 então é sempre importante construir um sistema aberto para mudanças.
 
 > "Um projeto que não leva em consideração a possibilidade de mudanças esta sujeito ao risco de uma grande reformulação no futuro"
+
+- Um sistema não deve ter dependências muito acopladas, quando acoplamos demais o software ao SO ou Alguma API externa estamos ficando reféns
+  dessa API, é importante projetar o sistema para limitar suas dependências de outras plataformas. Para isso existem padrões como Bridge
+
+  > Não sei o quanto isso vale quando falamos dentro do contexto de microserviços e sistemas construidos em cima de fraweworks como o spring,
+  > pois essa absrtação pode trazer mais dor de cabeça e acabar realizando um overenginneringn pesado para resolver um problema simples.
+
+- Dependências de operações específicas, quando colocamos operações hard-coded torna-se mais dificil mudar a maneira que a solicitação é atendida
+  em tempo de compilação e execução, para isso existem padrões como o (Chain of responsability, Command)
+
+- **Dependências algoritmas**, quando temos algoritmos que com certeza vão ser mudados, ou que irão se estender, os objetos que dependem desse algoritmos
+  também deverão ser alterados, portanto algortimos que serão alterados devem ficar isolados. Padrões que ajudam com isso são
+  -> Strategy, Iterator, Builder, Template Method, Visitor
+
+- Acoplamentos fortes entre classes fazem com que o sistema vire um só, e que seja dificil fazer uma mudança sem impactar diversos pontos do código, um acoplamento fraco faz com
+  que seja menos provável que uma classe precise de outra para ser usada, isso faz com que, o sistema possa ser modificado mais facilmente.
