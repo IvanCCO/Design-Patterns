@@ -46,3 +46,9 @@ mas para isso também existem padrões (os de criação) que ajudam a abstrair o
 de forma transparente.
 
 > Os padrões de criação asseguram que seu sistema esteja escrito em termos de interface, não de implementação.
+
+### Relacionamento de classes,
+
+<p align="center">
+  <img src="https://i.stack.imgur.com/jNyV5.jpg" width="25%" >
+</p>
