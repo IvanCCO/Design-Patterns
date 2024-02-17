@@ -47,8 +47,18 @@ de forma transparente.
 
 > Os padrões de criação asseguram que seu sistema esteja escrito em termos de interface, não de implementação.
 
-### Relacionamento de classes,
+### Relacionamento de classes
 
 <p align="center">
   <img src="https://i.stack.imgur.com/jNyV5.jpg" width="25%" >
 </p>
+
+Relacionamento de classes são muito imporantes quando vamos falar de Design Patterns pois nos ajudam a identificar a "raiz" da classe/objeto
+o seu tempo de vida e seu acoplamento com outras classes.
+
+### Projetando o sistema para mudanças
+
+Sempre faça um sistema com o pensamento de que o escopo inicial pode e vai mudar, e que mesmo que não mude na sua vez vai mudar na vez do próximo
+então é sempre importante construir um sistema aberto para mudanças.
+
+> "Um projeto que não leva em consideração a possibilidade de mudanças esta sujeito ao risco de uma grande reformulação no futuro"
