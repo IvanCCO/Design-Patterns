@@ -78,3 +78,8 @@ então é sempre importante construir um sistema aberto para mudanças.
 
 - Acoplamentos fortes entre classes fazem com que o sistema vire um só, e que seja dificil fazer uma mudança sem impactar diversos pontos do código, um acoplamento fraco faz com
   que seja menos provável que uma classe precise de outra para ser usada, isso faz com que, o sistema possa ser modificado mais facilmente.
+
+- Estender a funcionalidade pelo uso de subclasses é algo perigoso, e que a ao decorrer do projeto pode se pegar tendo que criar
+  mais e mais classes para atender uma operação simples, invés disso é melhor usar a **composição** para estender classes, pois dessa
+  forma se cria uma alternativa mais flexível á herança para combinação de comportamentos. Porém o uso intenso de composição, pode
+  deixar o projeto menos compreensível(e isso é algo muito importante).
