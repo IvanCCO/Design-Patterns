@@ -83,3 +83,16 @@ então é sempre importante construir um sistema aberto para mudanças.
   mais e mais classes para atender uma operação simples, invés disso é melhor usar a **composição** para estender classes, pois dessa
   forma se cria uma alternativa mais flexível á herança para combinação de comportamentos. Porém o uso intenso de composição, pode
   deixar o projeto menos compreensível(e isso é algo muito importante).
+
+### Como aplicar padrões de projeto?
+
+Quando vamos aplicar algum padrão de projeto, e não temos muita experiência com eles é importante seguir algumas
+regras que facilitam e deixam a implementação mais simples de ser identificada, porém essas não são regras imutáveis. Com a experiência podem ser adaptadas e mudadas.
+
+**Algumas regras de implementação são:**
+
+- Nomear implementação dos padrões junto com a aplicação, por exemplo, digamos que vamos aplicar o padrão **_Strategy_** para um sistema de transferência, onde podemos ter transferências PIX, TED, TEF, BOLETO...., podemos chamar a interface de transferência onde terá o contrato das operações para transferência de `TransferenciaStrategy`
+
+- Antes de implementar algum padrão de projeto é sempre importante entender 100% do padrão, como as classes do padrão se relacionam entre si, como se relacionam com a aplicação, os benefícios do padrão para o contexto e principalmente as consequências que ele traz.
+
+- Dica pessoal, **desenhe**, sim, por mais que seja muito legal codar e ver as letrinhas coloridas é muito importnate antes de colocar a mão no teclado, desenhar, entender de maneira mais macro como seu sistema irá funcionar, e o que o padrão está ajudando a resolver. Assim fica mais fácil ter uma noção fora do quadro, identificar possíveis cases, e até mesmo fazer escolher mais precisamente o padrão que resolve o problema.
