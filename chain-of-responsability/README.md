@@ -14,4 +14,17 @@ capturar os dados do cliente:
 - Service Pedro
 - Service Miguel
 
-Digamos que o João
+Digamos que o o cliente precise saber os dados do cliente, ele envia para nossa cadeia um método
+`getClientData(userId)` e espera como retorno os dados do cliente que está sendo buscado.
+Quando a solicitação entra na cadeia(chain) primeiro ele tenta buscar o dado do cliente no João,
+e João tem uma referência para o próximo serviço, então se nossa solicitação der um HTTP status
+500 por exemplo (server error -> digamos que esse status signifique o serviço está indisponível)
+ele vai mandar a mesma solicitação para o próximo da cadeia.
+
+## Implementação
+
+Para implementarmos o **pattern** precisamos primeiro de uma interface que vai implementar nossos handlers\*
+
+\_\_
+
+- - Handlers objetos que executam a operação da nossa cadeia
